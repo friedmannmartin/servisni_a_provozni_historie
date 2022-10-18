@@ -1,5 +1,3 @@
-# Servisní a provozní historie
-
 <img src="https://feedbotvsefisbotweb6272.blob.core.windows.net/upload/thumbnails/logo-horizontal-cs-square-05-removebg-preview.png" height="100" style="text-align: center;" alt="Logo Fakulty informatiky a statistiky VŠE">
 
 ___
