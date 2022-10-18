@@ -1,4 +1,5 @@
 __>> [Odkaz na interaktivní dokumentace architektury](report/html/index.html?view=id-3a55d715047a4ac9b70877037a837cf9 "Dokumentace architektury") <<__
+
 ___
 
 ## [Archi projekt](https://github.com/friedmannmartin/servisni_a_provozni_historie/blob/main/servisni_a_provozni_historie.archimate "Soubor archi projektu")

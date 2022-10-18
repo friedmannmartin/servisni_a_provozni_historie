@@ -4,3 +4,4 @@ plugins:
 title: Servisní a provozní historie
 description: Model architektury Servisní a provozní historie je praktickou částí diplomové práce Návrh architektury distribuované databáze pro uchování servisní historie automobilu.
 author: Martin Friedmann, Fakulta informatiky a statistiky VŠE
+show_downloads: "true"
