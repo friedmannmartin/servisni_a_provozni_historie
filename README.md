@@ -1,10 +1,12 @@
 # Servisní a provozní historie
 
+<img src="https://feedbotvsefisbotweb6272.blob.core.windows.net/upload/thumbnails/logo-horizontal-cs-square-05-removebg-preview.png" height="100" style="text-align: center;" alt="Logo Fakulty informatiky a statistiky VŠE">
+
 __[Dokumentace architektury](report/html/index.html?view=id-3a55d715047a4ac9b70877037a837cf9 "Dokumentace architektury")__
 
 Model architektury Servisní a provozní historie je praktickou částí diplomové práce Návrh architektury distribuované databáze pro uchování servisní historie automobilu (Martin Friedmann, Vysoká škola ekonomická, 2022).
 
-![Náhled diagramu přehledu celé architektury](report/jasper/servisni_a_provozni_historie.html_files/img_0_3_3.png)
+<img src="report/jasper/servisni_a_provozni_historie.html_files/img_0_3_3.png" height="200" alt="Náhled diagramu přehledu celé architektury">
 
 ## Složka export
 
