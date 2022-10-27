@@ -1,8 +1,8 @@
-__>> [Odkaz na interaktivní dokumentaci architektury](report/html/index.html?view=id-3a55d715047a4ac9b70877037a837cf9 "Dokumentace architektury") <<__
+# >> [Odkaz na interaktivní dokumentaci architektury](report/html/index.html?view=id-3a55d715047a4ac9b70877037a837cf9 "Dokumentace architektury") <<
 
 ___
 
-## [Archi projekt](https://github.com/friedmannmartin/servisni_a_provozni_historie/blob/main/servisni_a_provozni_historie.archimate "Soubor archi projektu")
+### [Archi projekt](https://github.com/friedmannmartin/servisni_a_provozni_historie/blob/main/servisni_a_provozni_historie.archimate "Soubor archi projektu")
 
 Dokumentace architektury byla primárně vytvořena pomocí CASE nástroje [Archi](https://www.archimatetool.com).
 
@@ -12,7 +12,7 @@ Jednotlivé diagramy lze [zde](https://github.com/friedmannmartin/servisni_a_pro
 
 ___
 
-## [Export](https://github.com/friedmannmartin/servisni_a_provozni_historie/tree/main/export "Složka s exportovanými soubory")
+### [Export](https://github.com/friedmannmartin/servisni_a_provozni_historie/tree/main/export "Složka s exportovanými soubory")
 
 Ve složce export jsou k dispozici exportované soubory ve formátech csv a Open Exchange Format (xml), pro účely importu do jiných CASE nástrojů než je Archi.
 
@@ -21,7 +21,7 @@ Ve složce export jsou k dispozici exportované soubory ve formátech csv a Open
 
 ___
 
-## [Report](https://github.com/friedmannmartin/servisni_a_provozni_historie/tree/main/report "Složka s soubory dokumetace")
+### [Report](https://github.com/friedmannmartin/servisni_a_provozni_historie/tree/main/report "Složka s soubory dokumetace")
 
 Ve složce report jsou k dispozici soubory dokumetace ve více formátech, tak aby ji bylo možné prohlížet pomocí různých zařízeních a aplikací. Dokumentace je k dispozici ve formátech interaktivního a statického HTML, DOCX, ODT, PDF, PPTX, RTF.
 
