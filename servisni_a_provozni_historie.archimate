@@ -1136,7 +1136,7 @@
           <bendpoint startX="72" startY="-19" endY="48"/>
         </sourceConnection>
       </child>
-      <documentation>Business vrstva zobrazuje klíčové služby, produkty a objekty nabízené jednotlivým business rolým.</documentation>
+      <documentation>Business vrstva zobrazuje klíčové služby, produkty a objekty nabízené jednotlivým business rolím.</documentation>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="03. Aplikační vrstva" id="id-544903f358674fe3977a3aea0e859c2f">
       <child xsi:type="archimate:DiagramObject" id="id-d082a18ff0df46a78b595b8684e734fb" targetConnections="id-26a21c5b664341a8b4957b0386c42ee8 id-905d3328f5ec4100acbb3502eab80d8d" textPosition="1" archimateElement="id-9d7af82c3ff946b38b1dd501646937c2">
@@ -1198,7 +1198,7 @@
       <child xsi:type="archimate:DiagramObject" id="id-34f6668e1cbb4059bf57ebaf65049129" targetConnections="id-6998016fc454470bade6c9913a751773" textPosition="1" archimateElement="id-980a4c415ad6472b924c0cb1878a2bc6">
         <bounds x="396" y="276" width="145" height="49"/>
       </child>
-      <documentation>Aplikační vrstva zobrazuje nezbytné aplikační služby potřebné pro naplnění business služeb, včetně datavých objektů a aplikačních komponent.</documentation>
+      <documentation>Aplikační vrstva zobrazuje nezbytné aplikační služby potřebné pro naplnění business služeb, včetně datových objektů a aplikačních komponent.</documentation>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="04. Technologická vrstva" id="id-a531a4c6b0964e6d93285072f0cec4a7">
       <child xsi:type="archimate:DiagramObject" id="id-1dcb0342b2a442548bdff5975ce12543" targetConnections="id-9c7bb44c182b4c6ab6252dea5fb11f9e" textPosition="1" archimateElement="id-6e0f58f4ceea4381b0ebe4a268acd95c">
@@ -1412,7 +1412,7 @@
       <child xsi:type="archimate:DiagramObject" id="id-f648202d224341749f0fe5b740a73b94" targetConnections="id-0121e64db9574282b75c993103311479 id-28bc58bafa4c4c04a84c15dcb8495a8f id-779e924026fa459b935a531be989b93d" textPosition="1" archimateElement="id-d915fe2c1c954f5284263192a8a3d291">
         <bounds x="360" y="744" width="120" height="61"/>
       </child>
-      <documentation>Technologická vrstva realizuje aplikační služby a zobrazuje technoligcké procesy, infrastrukturní prvky a datové toky nezbyné pro zajištění požadovaných vlastností architektury.</documentation>
+      <documentation>Technologická vrstva realizuje aplikační služby a zobrazuje technologické procesy, infrastrukturní prvky a datové toky nezbytné pro zajištění požadovaných vlastností architektury.</documentation>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="15. Datový model" id="id-23364c1f3e204355afc7f89c0c12640d">
       <child xsi:type="archimate:Group" id="id-19a2181f0d1a4bf6ace325319b57c1f5" name="Vlastní síť" textAlignment="1">
@@ -1812,7 +1812,7 @@
       <child xsi:type="archimate:DiagramObject" id="id-dd9e7987eaa248b48c53b2a58a3565d5" targetConnections="id-0186ad0463864c7e8176cd76b52f7e86 id-b7566f97679a4a0293d57bf69924fa38 id-469f87e9e6824a3fb3161bbec837b4f4" textPosition="1" archimateElement="id-fbc760ae5c4349e1b262c07df8b9f4a6">
         <bounds x="1164" y="648" width="145" height="61"/>
       </child>
-      <documentation>Detail Servisního záznamu zobrazuje výsek aplikační a technologické vrstvy a popisuje službu zapisování nových servisnícho záznamů a vyhledávání již existujících provozních i servisních záznamů, a to včetně popisu konkrétního technického procesu a nezbytné infrastruktury, potřebné pro řádné zapsání nových servisních záznamů a vyhledávání již existujících provozních a servisních záznamů. </documentation>
+      <documentation>Detail Servisního záznamu zobrazuje výsek aplikační a technologické vrstvy a popisuje službu zapisování nových servisních záznamů a vyhledávání již existujících provozních i servisních záznamů, a to včetně popisu konkrétního technického procesu a nezbytné infrastruktury, potřebné pro řádné zapsání nových servisních záznamů a vyhledávání již existujících provozních a servisních záznamů. </documentation>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="05. Detail business role Automobil" id="id-9b4d9a1c18ce4d42a534ca4b2236c18e">
       <child xsi:type="archimate:DiagramObject" id="id-726b8adbc2ee4d4b9e00861961c61686" targetConnections="id-ed810307b4ba40b2a56291c0f78f14b2" textPosition="1" imagePosition="4" archimateElement="id-71350432c105481f83218aa71d99c324">
