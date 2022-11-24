@@ -248,7 +248,7 @@
     </element>
     <element identifier="id-f8c887ba12784af5bcbee739ee2792d3" xsi:type="Artifact">
       <name xml:lang="cs">Dokument</name>
-      <documentation xml:lang="cs">Dokument je datový objekt v nestandardizované podobě a uložený v IPFS uložišti. Může se jednat o libovolný multimediální soubor, který obsahuje popis nějaké servisní skutečnost. Takový dokument vzniká zcela vně navrhované architektury, která obstarává pouze jeho důvěryhodné uchování.</documentation>
+      <documentation xml:lang="cs">Dokument je datový objekt v nestandardizované podobě a uložený v IPFS úložišti. Může se jednat o libovolný multimediální soubor, který obsahuje popis nějaké servisní skutečnost. Takový dokument vzniká zcela vně navrhované architektury, která obstarává pouze jeho důvěryhodné uchování.</documentation>
     </element>
     <element identifier="id-6e0f58f4ceea4381b0ebe4a268acd95c" xsi:type="TechnologyInterface">
       <name xml:lang="cs">API rozhraní</name>
@@ -260,11 +260,11 @@
     </element>
     <element identifier="id-2e003916791242bc9c7a8212e5caed3d" xsi:type="Device">
       <name xml:lang="cs">Automobil</name>
-      <documentation xml:lang="cs">Automobilem se rozumí výpočetní prostředí automobilu, ve kterém je spuštěný uzel sítě. Automobil uzlu sítě poskytuje též své výpočetní prostředky, lokální uložiště a síťovou konektivitu.</documentation>
+      <documentation xml:lang="cs">Automobilem se rozumí výpočetní prostředí automobilu, ve kterém je spuštěný uzel sítě. Automobil uzlu sítě poskytuje též své výpočetní prostředky, lokální úložiště a síťovou konektivitu.</documentation>
     </element>
     <element identifier="id-8019273218294a51bef76309ca8b9763" xsi:type="Device">
       <name xml:lang="cs">Počítač</name>
-      <documentation xml:lang="cs">Počítačem se rozumí výpočetní prostředí běžného osobního počítače či dedikovaného serveru na kterém je spuštěný uzel sítě. Počítač uzlu sítě poskytuje též své výpočetní prostředky, lokální uložiště a síťovou konektivitu.</documentation>
+      <documentation xml:lang="cs">Počítačem se rozumí výpočetní prostředí běžného osobního počítače či dedikovaného serveru na kterém je spuštěný uzel sítě. Počítač uzlu sítě poskytuje též své výpočetní prostředky, lokální úložiště a síťovou konektivitu.</documentation>
     </element>
     <element identifier="id-e2cda63dd4694aff8fdc5c6c42ed4318" xsi:type="TechnologyProcess">
       <name xml:lang="cs">Zapsání nového listu grafu</name>
@@ -272,11 +272,11 @@
     </element>
     <element identifier="id-ee772b9062d9438e96795e5a51a5ab41" xsi:type="TechnologyProcess">
       <name xml:lang="cs">Zapsání nového listu grafu s dokumentem</name>
-      <documentation xml:lang="cs">Technický proces Zápis nového listu grafu s dokumentem popisuje postup při vzniku nového nepotvrzeného listu grafu s využitím IPFS uložiště, pro potřeby uchovávání servisních záznamů. Tento proces je realizovaný pomocí uzlu sítě.</documentation>
+      <documentation xml:lang="cs">Technický proces Zápis nového listu grafu s dokumentem popisuje postup při vzniku nového nepotvrzeného listu grafu s využitím IPFS úložiště, pro potřeby uchovávání servisních záznamů. Tento proces je realizovaný pomocí uzlu sítě.</documentation>
     </element>
     <element identifier="id-b2728f1676734ac68528d00d9e30b2c1" xsi:type="CommunicationNetwork">
-      <name xml:lang="cs">IPFS uložiště</name>
-      <documentation xml:lang="cs">InterPlanetary File System je decentralizované uložiště, kde jsou uchovávané nestandardizované multimediální dokumenty, které obsahují samotné servisní záznamy, například záznamy o pravidelných prohlídkách nebo garančních a nezáručních servisních úkonech. CID dokumentu identifikuje právě dokument uložený v IPFS.</documentation>
+      <name xml:lang="cs">IPFS úložiště</name>
+      <documentation xml:lang="cs">InterPlanetary File System je decentralizované úložiště, kde jsou uchovávané nestandardizované multimediální dokumenty, které obsahují samotné servisní záznamy, například záznamy o pravidelných prohlídkách nebo garančních a nezáručních servisních úkonech. CID dokumentu identifikuje právě dokument uložený v IPFS.</documentation>
     </element>
     <element identifier="id-9d31b0b9e49f4e52a141df757e579ec8" xsi:type="TechnologyEvent">
       <name xml:lang="cs">1x měsíčně</name>
@@ -292,7 +292,7 @@
     </element>
     <element identifier="id-5f43387452b642c98c2828ace09050cd" xsi:type="Artifact">
       <name xml:lang="cs">CID dokumentu</name>
-      <documentation xml:lang="cs">CID dokumentu neboli Content ID dokumentu je unikátní hash dokumentu uloženého v IPFS uložišti. CID je pro každý dokument vygenerovaný v okamžiku jeho uložení do IPFS. Pomocí unikátního CID se lze dotázat IPFS a tím zpětně získat hledaný dokument.</documentation>
+      <documentation xml:lang="cs">CID dokumentu neboli Content ID dokumentu je unikátní hash dokumentu uloženého v IPFS úložišti. CID je pro každý dokument vygenerovaný v okamžiku jeho uložení do IPFS. Pomocí unikátního CID se lze dotázat IPFS a tím zpětně získat hledaný dokument.</documentation>
     </element>
     <element identifier="id-ce541a5ea0144171a6b963b90cde3404" xsi:type="Artifact">
       <name xml:lang="cs">Digitální podpis autora a časové razítko</name>
@@ -324,11 +324,11 @@
     </element>
     <element identifier="id-c047f4dc0210489bbacd6b17cb917792" xsi:type="TechnologyFunction">
       <name xml:lang="cs">Uložení dokumentu do sítě IPFS</name>
-      <documentation xml:lang="cs">Uživatel na vstupu vloží dokument popisující servisní záznam. Ten je následně uložen do IPFS uložiště, které vrátí CID uloženého dokumentu, který se následně předává následujícímu procesnímu kroku.</documentation>
+      <documentation xml:lang="cs">Uživatel na vstupu vloží dokument popisující servisní záznam. Ten je následně uložen do IPFS úložiště, které vrátí CID uloženého dokumentu, který se následně předává následujícímu procesnímu kroku.</documentation>
     </element>
     <element identifier="id-ff536ed56baa4c3fbe395fecacd51a48" xsi:type="TechnologyProcess">
       <name xml:lang="cs">Vyhledání existujícího uzlu grafu</name>
-      <documentation xml:lang="cs">Technický proces Vyhledání existujícího uzlu grafu, popisuje postup při vyhledání uzlu grafu včetně rozhodovací logiky o vyhledání dokumentu v IPFS uložišti. Tento proces je realizovaný pomocí uzlu sítě.</documentation>
+      <documentation xml:lang="cs">Technický proces Vyhledání existujícího uzlu grafu, popisuje postup při vyhledání uzlu grafu včetně rozhodovací logiky o vyhledání dokumentu v IPFS úložišti. Tento proces je realizovaný pomocí uzlu sítě.</documentation>
     </element>
     <element identifier="id-7b029ea3a9c843778602042accd995b3" xsi:type="TechnologyFunction">
       <name xml:lang="cs">Vyhledání uzlu v grafu</name>
@@ -5231,7 +5231,7 @@
       </view>
       <view identifier="id-9b4d9a1c18ce4d42a534ca4b2236c18e" xsi:type="Diagram">
         <name xml:lang="cs">05. Detail business role Automobil</name>
-        <documentation xml:lang="cs">Detail business role Automobil zobrazuje pouze klíčové služby, produkty a objekty poskytování business roly Automobil.</documentation>
+        <documentation xml:lang="cs">Detail business role Automobil zobrazuje pouze klíčové služby, produkty a objekty relevantní pro business roly Automobil.</documentation>
         <node identifier="id-726b8adbc2ee4d4b9e00861961c61686" elementRef="id-71350432c105481f83218aa71d99c324" xsi:type="Element" x="132" y="24" w="97" h="49">
           <style>
             <fillColor r="255" g="255" b="181" a="100" />
@@ -5829,7 +5829,7 @@
       </view>
       <view identifier="id-0589018d2fea406c9537dc2b9ced6365" xsi:type="Diagram">
         <name xml:lang="cs">11. Detail business role Vlastník</name>
-        <documentation xml:lang="cs">Detail business role Vlastník zobrazuje pouze klíčové služby, produkty a objekty poskytování business roly Vlastník.</documentation>
+        <documentation xml:lang="cs">Detail business role Vlastník zobrazuje pouze klíčové služby, produkty a objekty relevantní pro business roly Vlastník.</documentation>
         <node identifier="id-0e8b2cf7b7ae4a9c8da3971bc8b0ae99" elementRef="id-4f7971ae46f24bea80dd8efbad78eee6" xsi:type="Element" x="684" y="24" w="121" h="49">
           <style>
             <fillColor r="255" g="255" b="181" a="100" />
@@ -6327,7 +6327,7 @@
       </view>
       <view identifier="id-5679b1e8e2ff4414ade8271f16e556d0" xsi:type="Diagram">
         <name xml:lang="cs">07. Detail business role Autoservis</name>
-        <documentation xml:lang="cs">Detail business role Autoservis zobrazuje pouze klíčové služby, produkty a objekty poskytování business roly Autoservis.</documentation>
+        <documentation xml:lang="cs">Detail business role Autoservis zobrazuje pouze klíčové služby, produkty a objekty relevantní pro business roly Autoservis.</documentation>
         <node identifier="id-39a7ab6084d14149a460126d1bce8bdf" elementRef="id-c07da84383b148189e51bf3498888e1e" xsi:type="Element" x="564" y="36" w="121" h="49">
           <style>
             <fillColor r="255" g="255" b="181" a="100" />
@@ -6812,7 +6812,7 @@
       </view>
       <view identifier="id-29137b92b945450e90929b4b5b571c6c" xsi:type="Diagram">
         <name xml:lang="cs">06. Detail business role Automobilka</name>
-        <documentation xml:lang="cs">Detail business role Automobilka zobrazuje pouze klíčové služby, produkty a objekty poskytování business roly Automobilka.</documentation>
+        <documentation xml:lang="cs">Detail business role Automobilka zobrazuje pouze klíčové služby, produkty a objekty relevantní pro business roly Automobilka.</documentation>
         <node identifier="id-79e64aa5b98c48e2a903c6cc152f7482" elementRef="id-a111e6489cd7473fb35b69cf8b7031ef" xsi:type="Element" x="396" y="72" w="121" h="49">
           <style>
             <fillColor r="255" g="255" b="181" a="100" />
@@ -7102,7 +7102,7 @@
       </view>
       <view identifier="id-57b9fc1b7ba34aee84346f59bae8aaaf" xsi:type="Diagram">
         <name xml:lang="cs">09. Detail business role Státní správa</name>
-        <documentation xml:lang="cs">Detail business role Státní správa zobrazuje pouze klíčové služby, produkty a objekty poskytování business roly Státní správa.</documentation>
+        <documentation xml:lang="cs">Detail business role Státní správa zobrazuje pouze klíčové služby, produkty a objekty relevantní pro business roly Státní správa.</documentation>
         <node identifier="id-dfb2e30c83be4dcc8014ec8f134afa5b" elementRef="id-eff8684e01a649eebdf54df67db8c7e1" xsi:type="Element" x="372" y="24" w="121" h="49">
           <style>
             <fillColor r="255" g="255" b="181" a="100" />
@@ -7357,7 +7357,7 @@
       </view>
       <view identifier="id-11ca9ec22ba54774892e0b179262b506" xsi:type="Diagram">
         <name xml:lang="cs">10. Detail business role Třetí strana</name>
-        <documentation xml:lang="cs">Detail business role Třetí strana zobrazuje pouze klíčové služby, produkty a objekty poskytování business roly Třetí strana.</documentation>
+        <documentation xml:lang="cs">Detail business role Třetí strana zobrazuje pouze klíčové služby, produkty a objekty relevantní pro business roly Třetí strana.</documentation>
         <node identifier="id-875cf446ddda4e9c8621b899f367220c" elementRef="id-fa63003be03f4695b8322de564f2be9c" xsi:type="Element" x="697" y="24" w="108" h="49">
           <style>
             <fillColor r="255" g="255" b="181" a="100" />
@@ -7857,7 +7857,7 @@
       </view>
       <view identifier="id-c6bd8b8f03aa429183508d16672aa806" xsi:type="Diagram">
         <name xml:lang="cs">08. Detail business role Pojišťovna</name>
-        <documentation xml:lang="cs">Detail business role Pojišťovna zobrazuje pouze klíčové služby, produkty a objekty poskytování business roly Pojišťovna.</documentation>
+        <documentation xml:lang="cs">Detail business role Pojišťovna zobrazuje pouze klíčové služby, produkty a objekty relevantní pro business roly Pojišťovna.</documentation>
         <node identifier="id-8a6ee20f8d7548f69de861dc8c94c1a3" elementRef="id-ac1123f71fca4016a474d3a1f1480b93" xsi:type="Element" x="456" y="24" w="109" h="49">
           <style>
             <fillColor r="255" g="255" b="181" a="100" />

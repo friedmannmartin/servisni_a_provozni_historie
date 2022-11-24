@@ -178,7 +178,7 @@
       <documentation>Potvrzený uzel grafu je technický datový objekt, který je agregovaný v DAG. Jednotlivé potvrzené uzly tvoří jádro DAG a potvrzenými, důvěryhodnými uzly se stávají ve chvíli, kdy na ně odkazují minimálně dva potomci. Každý potvrzený uzel grafu obsahuje odkaz na své dva předchůdce, u kterých ověřil jejich pravost. Každý potvrzený uzel grafu vznikl neodvolatelným ověřením nepotvrzeného listu grafu.</documentation>
     </element>
     <element xsi:type="archimate:Artifact" name="Dokument" id="id-f8c887ba12784af5bcbee739ee2792d3">
-      <documentation>Dokument je datový objekt v nestandardizované podobě a uložený v IPFS uložišti. Může se jednat o libovolný multimediální soubor, který obsahuje popis nějaké servisní skutečnost. Takový dokument vzniká zcela vně navrhované architektury, která obstarává pouze jeho důvěryhodné uchování.</documentation>
+      <documentation>Dokument je datový objekt v nestandardizované podobě a uložený v IPFS úložišti. Může se jednat o libovolný multimediální soubor, který obsahuje popis nějaké servisní skutečnost. Takový dokument vzniká zcela vně navrhované architektury, která obstarává pouze jeho důvěryhodné uchování.</documentation>
     </element>
     <element xsi:type="archimate:TechnologyInterface" name="API rozhraní" id="id-6e0f58f4ceea4381b0ebe4a268acd95c">
       <documentation>API rozhraní abstrahuje konkrétní technické řešení samotných uzlů sítě od aplikační vrstvy, kde jsou popsané konceptuální aplikační komponenty a jejich aplikační funkce.</documentation>
@@ -187,19 +187,19 @@
       <documentation>Uzel sítě představuje elementární, myšleno nejmenší nedělitelnou jednotku sítě. I v případě degradace sítě není nijak omezena funkčnost zápisu nových záznamů. V případě vyhledávání již existujících záznamů je vyhledávání omezeno až v krajních situacích.</documentation>
     </element>
     <element xsi:type="archimate:Device" name="Automobil" id="id-2e003916791242bc9c7a8212e5caed3d">
-      <documentation>Automobilem se rozumí výpočetní prostředí automobilu, ve kterém je spuštěný uzel sítě. Automobil uzlu sítě poskytuje též své výpočetní prostředky, lokální uložiště a síťovou konektivitu.</documentation>
+      <documentation>Automobilem se rozumí výpočetní prostředí automobilu, ve kterém je spuštěný uzel sítě. Automobil uzlu sítě poskytuje též své výpočetní prostředky, lokální úložiště a síťovou konektivitu.</documentation>
     </element>
     <element xsi:type="archimate:Device" name="Počítač" id="id-8019273218294a51bef76309ca8b9763">
-      <documentation>Počítačem se rozumí výpočetní prostředí běžného osobního počítače či dedikovaného serveru na kterém je spuštěný uzel sítě. Počítač uzlu sítě poskytuje též své výpočetní prostředky, lokální uložiště a síťovou konektivitu.</documentation>
+      <documentation>Počítačem se rozumí výpočetní prostředí běžného osobního počítače či dedikovaného serveru na kterém je spuštěný uzel sítě. Počítač uzlu sítě poskytuje též své výpočetní prostředky, lokální úložiště a síťovou konektivitu.</documentation>
     </element>
     <element xsi:type="archimate:TechnologyProcess" name="Zapsání nového listu grafu" id="id-e2cda63dd4694aff8fdc5c6c42ed4318">
       <documentation>Technický proces Zápis nového listu grafu popisuje postup při vzniku nového nepotvrzeného listu grafu pro potřeby uchovávání provozních záznamů. Tento proces je realizovaný pomocí uzlu sítě v pravidelných intervalech.</documentation>
     </element>
     <element xsi:type="archimate:TechnologyProcess" name="Zapsání nového listu grafu s dokumentem" id="id-ee772b9062d9438e96795e5a51a5ab41">
-      <documentation>Technický proces Zápis nového listu grafu s dokumentem popisuje postup při vzniku nového nepotvrzeného listu grafu s využitím IPFS uložiště, pro potřeby uchovávání servisních záznamů. Tento proces je realizovaný pomocí uzlu sítě.</documentation>
+      <documentation>Technický proces Zápis nového listu grafu s dokumentem popisuje postup při vzniku nového nepotvrzeného listu grafu s využitím IPFS úložiště, pro potřeby uchovávání servisních záznamů. Tento proces je realizovaný pomocí uzlu sítě.</documentation>
     </element>
-    <element xsi:type="archimate:CommunicationNetwork" name="IPFS uložiště" id="id-b2728f1676734ac68528d00d9e30b2c1">
-      <documentation>InterPlanetary File System je decentralizované uložiště, kde jsou uchovávané nestandardizované multimediální dokumenty, které obsahují samotné servisní záznamy, například záznamy o pravidelných prohlídkách nebo garančních a nezáručních servisních úkonech. CID dokumentu identifikuje právě dokument uložený v IPFS.</documentation>
+    <element xsi:type="archimate:CommunicationNetwork" name="IPFS úložiště" id="id-b2728f1676734ac68528d00d9e30b2c1">
+      <documentation>InterPlanetary File System je decentralizované úložiště, kde jsou uchovávané nestandardizované multimediální dokumenty, které obsahují samotné servisní záznamy, například záznamy o pravidelných prohlídkách nebo garančních a nezáručních servisních úkonech. CID dokumentu identifikuje právě dokument uložený v IPFS.</documentation>
     </element>
     <element xsi:type="archimate:TechnologyEvent" name="1x měsíčně" id="id-9d31b0b9e49f4e52a141df757e579ec8">
       <documentation>Na základě dotazníku mezi řidiči byl zvolen pravidelný interval, v jakém by se měli pořizovat snímky provozních údajů automobilu. Jedná se o arbitrární časový interval, který může být dále v odůvodněných případech změněn.</documentation>
@@ -211,7 +211,7 @@
       <documentation>Výpis z autodiagnostiky je datový objekt tvořící klíčovou součást každého provozního záznamu. Výpis z autodiagnostiky obsahuje snímek provozních údajů automobilu k určitému okamžiku v čase. Původce je řídící jednotka automobilu.</documentation>
     </element>
     <element xsi:type="archimate:Artifact" name="CID dokumentu" id="id-5f43387452b642c98c2828ace09050cd">
-      <documentation>CID dokumentu neboli Content ID dokumentu je unikátní hash dokumentu uloženého v IPFS uložišti. CID je pro každý dokument vygenerovaný v okamžiku jeho uložení do IPFS. Pomocí unikátního CID se lze dotázat IPFS a tím zpětně získat hledaný dokument.</documentation>
+      <documentation>CID dokumentu neboli Content ID dokumentu je unikátní hash dokumentu uloženého v IPFS úložišti. CID je pro každý dokument vygenerovaný v okamžiku jeho uložení do IPFS. Pomocí unikátního CID se lze dotázat IPFS a tím zpětně získat hledaný dokument.</documentation>
     </element>
     <element xsi:type="archimate:Artifact" name="Digitální podpis autora a časové razítko" id="id-ce541a5ea0144171a6b963b90cde3404">
       <documentation>Digitální podpis autora a časové razítko jsou datové objekty obsažené v každém uzlu grafu. Digitální podpis autora je unikátní pro každého uživatele, který zapisuje nový záznam. Oba využívají asymetrickou kryptografii pro zajištění důvěryhodnosti každého uzlu grafu.</documentation>
@@ -235,10 +235,10 @@
       <documentation>Nepotvrzený list grafu je technický datový objekt, který je agregovaný v DAG. Jednotlivé nepotvrzené listy jsou uzly na samotném okraji DAG, na které odkazuje jeden nebo žádný potomek. Každý nepotvrzený list grafu obsahuje odkaz na své dva předchůdce, u kterých ověřil jejich pravost. Nepotvrzený list se může neodvolatelně přeměnit na potvrzený uzel grafu.</documentation>
     </element>
     <element xsi:type="archimate:TechnologyFunction" name="Uložení dokumentu do sítě IPFS" id="id-c047f4dc0210489bbacd6b17cb917792">
-      <documentation>Uživatel na vstupu vloží dokument popisující servisní záznam. Ten je následně uložen do IPFS uložiště, které vrátí CID uloženého dokumentu, který se následně předává následujícímu procesnímu kroku. </documentation>
+      <documentation>Uživatel na vstupu vloží dokument popisující servisní záznam. Ten je následně uložen do IPFS úložiště, které vrátí CID uloženého dokumentu, který se následně předává následujícímu procesnímu kroku. </documentation>
     </element>
     <element xsi:type="archimate:TechnologyProcess" name="Vyhledání existujícího uzlu grafu" id="id-ff536ed56baa4c3fbe395fecacd51a48">
-      <documentation>Technický proces Vyhledání existujícího uzlu grafu, popisuje postup při vyhledání uzlu grafu včetně rozhodovací logiky o vyhledání dokumentu v IPFS uložišti. Tento proces je realizovaný pomocí uzlu sítě.</documentation>
+      <documentation>Technický proces Vyhledání existujícího uzlu grafu, popisuje postup při vyhledání uzlu grafu včetně rozhodovací logiky o vyhledání dokumentu v IPFS úložišti. Tento proces je realizovaný pomocí uzlu sítě.</documentation>
     </element>
     <element xsi:type="archimate:TechnologyFunction" name="Vyhledání uzlu v grafu" id="id-7b029ea3a9c843778602042accd995b3">
       <documentation>Uzel je vyhledán v DAG dle vstupních parametrů zadaných uživatelem.</documentation>
@@ -1856,7 +1856,7 @@
       <child xsi:type="archimate:DiagramObject" id="id-f933b148859b46a581ee9872d6622c8a" targetConnections="id-0ee95073be584b9e8a3ff8eefe11f1c0" textPosition="1" archimateElement="id-9b9e3078fe7c4222bf414d0bc02b6ff7">
         <bounds x="204" y="384" width="145" height="61"/>
       </child>
-      <documentation>Detail business role Automobil zobrazuje pouze klíčové služby, produkty a objekty poskytování business roly Automobil.</documentation>
+      <documentation>Detail business role Automobil zobrazuje pouze klíčové služby, produkty a objekty relevantní pro business roly Automobil.</documentation>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="12. Detail business role Řidič" id="id-f7184b3fc0c14980a751cf4e59a041c5">
       <child xsi:type="archimate:DiagramObject" id="id-538ad9f9135344b8848b3b8ccb8c6c9e" targetConnections="id-8cef363384ad407199b43dbaa550c218" textPosition="1" imagePosition="4" archimateElement="id-4b05a21bc19d48a583a094051dc67010">
@@ -2164,7 +2164,7 @@
         <feature name="hideJunctionArrows" value="true"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-dcb28b9ee3244644867e086f77663d91" source="id-8b0a90601d1d41a9a1d4a042e93afdaf" target="id-0e8b2cf7b7ae4a9c8da3971bc8b0ae99" archimateRelationship="id-679b783485ba4ccd9415bd78dd63d4e6"/>
       </child>
-      <documentation>Detail business role Vlastník zobrazuje pouze klíčové služby, produkty a objekty poskytování business roly Vlastník.</documentation>
+      <documentation>Detail business role Vlastník zobrazuje pouze klíčové služby, produkty a objekty relevantní pro business roly Vlastník.</documentation>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="07. Detail business role Autoservis" id="id-5679b1e8e2ff4414ade8271f16e556d0">
       <child xsi:type="archimate:DiagramObject" id="id-39a7ab6084d14149a460126d1bce8bdf" targetConnections="id-1cbbb56c0b064ca6b11c854d40f6f3a7" textPosition="1" imagePosition="4" archimateElement="id-c07da84383b148189e51bf3498888e1e">
@@ -2322,7 +2322,7 @@
         <feature name="hideJunctionArrows" value="true"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-1cbbb56c0b064ca6b11c854d40f6f3a7" source="id-05a2985a8739430f8a14f505aa1e7176" target="id-39a7ab6084d14149a460126d1bce8bdf" archimateRelationship="id-18df0c8974654e798a409dd82c22db0f"/>
       </child>
-      <documentation>Detail business role Autoservis zobrazuje pouze klíčové služby, produkty a objekty poskytování business roly Autoservis.</documentation>
+      <documentation>Detail business role Autoservis zobrazuje pouze klíčové služby, produkty a objekty relevantní pro business roly Autoservis.</documentation>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="06. Detail business role Automobilka" id="id-29137b92b945450e90929b4b5b571c6c">
       <child xsi:type="archimate:DiagramObject" id="id-79e64aa5b98c48e2a903c6cc152f7482" targetConnections="id-21c999ff48f84911a128a2260cc3cce9" textPosition="1" imagePosition="4" archimateElement="id-a111e6489cd7473fb35b69cf8b7031ef">
@@ -2412,7 +2412,7 @@
         <feature name="hideJunctionArrows" value="true"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-21c999ff48f84911a128a2260cc3cce9" source="id-89be80a5b41b4dde84072ca09e806a3f" target="id-79e64aa5b98c48e2a903c6cc152f7482" archimateRelationship="id-1525df8dcb264ad29fe5f830237a7e98"/>
       </child>
-      <documentation>Detail business role Automobilka zobrazuje pouze klíčové služby, produkty a objekty poskytování business roly Automobilka.</documentation>
+      <documentation>Detail business role Automobilka zobrazuje pouze klíčové služby, produkty a objekty relevantní pro business roly Automobilka.</documentation>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="09. Detail business role Státní správa" id="id-57b9fc1b7ba34aee84346f59bae8aaaf">
       <child xsi:type="archimate:DiagramObject" id="id-dfb2e30c83be4dcc8014ec8f134afa5b" targetConnections="id-1d7b8967acc74d10ba534ec683d6bb0e" textPosition="1" imagePosition="4" archimateElement="id-eff8684e01a649eebdf54df67db8c7e1">
@@ -2491,7 +2491,7 @@
         <feature name="hideJunctionArrows" value="true"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-1d7b8967acc74d10ba534ec683d6bb0e" source="id-8736305d3b4449b5ab4e88c8946c8180" target="id-dfb2e30c83be4dcc8014ec8f134afa5b" archimateRelationship="id-2e140f755df6435d9b4e187c579d239a"/>
       </child>
-      <documentation>Detail business role Státní správa zobrazuje pouze klíčové služby, produkty a objekty poskytování business roly Státní správa.</documentation>
+      <documentation>Detail business role Státní správa zobrazuje pouze klíčové služby, produkty a objekty relevantní pro business roly Státní správa.</documentation>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="10. Detail business role Třetí strana" id="id-11ca9ec22ba54774892e0b179262b506">
       <child xsi:type="archimate:DiagramObject" id="id-875cf446ddda4e9c8621b899f367220c" targetConnections="id-566cb0068e4a426da988a647653afcfc" textPosition="1" imagePosition="4" archimateElement="id-fa63003be03f4695b8322de564f2be9c">
@@ -2649,7 +2649,7 @@
         <feature name="hideJunctionArrows" value="true"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-566cb0068e4a426da988a647653afcfc" source="id-35d01935914d4adcb45045222684b9d2" target="id-875cf446ddda4e9c8621b899f367220c" archimateRelationship="id-b6648361a4bf421f998b875441b0886c"/>
       </child>
-      <documentation>Detail business role Třetí strana zobrazuje pouze klíčové služby, produkty a objekty poskytování business roly Třetí strana.</documentation>
+      <documentation>Detail business role Třetí strana zobrazuje pouze klíčové služby, produkty a objekty relevantní pro business roly Třetí strana.</documentation>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="08. Detail business role Pojišťovna" id="id-c6bd8b8f03aa429183508d16672aa806">
       <child xsi:type="archimate:DiagramObject" id="id-8a6ee20f8d7548f69de861dc8c94c1a3" targetConnections="id-72b7e46ab39041aba3f053c798d1f490" textPosition="1" imagePosition="4" archimateElement="id-ac1123f71fca4016a474d3a1f1480b93">
@@ -2753,7 +2753,7 @@
         <feature name="hideJunctionArrows" value="true"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-72b7e46ab39041aba3f053c798d1f490" source="id-9f59c30e51c942c7954dba3f97a1b9bb" target="id-8a6ee20f8d7548f69de861dc8c94c1a3" archimateRelationship="id-8ec3130a2ea148c89f0b43892fc24980"/>
       </child>
-      <documentation>Detail business role Pojišťovna zobrazuje pouze klíčové služby, produkty a objekty poskytování business roly Pojišťovna.</documentation>
+      <documentation>Detail business role Pojišťovna zobrazuje pouze klíčové služby, produkty a objekty relevantní pro business roly Pojišťovna.</documentation>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="00. Rozcestník pohledů" id="id-3a55d715047a4ac9b70877037a837cf9">
       <child xsi:type="archimate:DiagramModelReference" id="id-4e1480c20d82420491ff15d0333aaff9" fillColor="#d2d7d6" model="id-93a94b26db11446c84b88ccbb1eb4e16">
