@@ -32,11 +32,11 @@
     </element>
     <element identifier="id-4b05a21bc19d48a583a094051dc67010" xsi:type="BusinessRole">
       <name xml:lang="cs">Řidič</name>
-      <documentation xml:lang="cs">Business role řidič zastupuje řidiče automobilů, vždy se jedná o fyzickou osobu. Řidič se primárně potřebuje informovat před započetím jízdy o provozuschopnosti automobilu a případně evidovat incidenty, například defekt pneumatiky, vzniklé během samotné jízdy.</documentation>
+      <documentation xml:lang="cs">Business role řidič zastupuje řidiče automobilů, vždy se jedná o fyzickou osobu. Řidič se primárně potřebuje informovat před započetím jízdy o provozuschopnosti automobilu a případně evidovat nové incidenty, například defekt pneumatiky, vzniklé během samotné jízdy.</documentation>
     </element>
     <element identifier="id-4f7971ae46f24bea80dd8efbad78eee6" xsi:type="BusinessRole">
       <name xml:lang="cs">Vlastník</name>
-      <documentation xml:lang="cs">Business role Vlastník zastupuje samotné vlastníky automobilů, kterými mohou být fyzické ale i právnické osoby. Vlastník má přístup ke zcela všem záznamům o vozidle, tak aby mohl činit informované rozhodnutí o údržbě v průběhu životního cyklu automobilu. Dále má možnost evidovat nezáruční servisní úkony, které mohl provést svépomocí, například výměnu motorového oleje apod.</documentation>
+      <documentation xml:lang="cs">Business role Vlastník zastupuje samotné vlastníky automobilů, kterými mohou být fyzické, ale i právnické osoby. Vlastník má přístup ke zcela všem záznamům o vozidle, tak aby mohl činit informované rozhodnutí o údržbě v průběhu životního cyklu automobilu. Dále má možnost evidovat nezáruční servisní úkony, které mohl provést svépomocí, například výměnu motorového oleje apod.</documentation>
     </element>
     <element identifier="id-ac1123f71fca4016a474d3a1f1480b93" xsi:type="BusinessRole">
       <name xml:lang="cs">Pojišťovna</name>
@@ -48,7 +48,7 @@
     </element>
     <element identifier="id-fa63003be03f4695b8322de564f2be9c" xsi:type="BusinessRole">
       <name xml:lang="cs">Třetí strana</name>
-      <documentation xml:lang="cs">Business role Třetí strana je souhrnné označení různé subjekty, kteří mohou provozní a servisní záznamy automobilů využít v široké škále business modelů. Největší skupinou jsou nezávislé autoservisy, dále autopůjčovny a společnosti provozující carsharing. Předpokládá se, že třetí strany budou záznamy převážně konzumovat, s tvorbou nových záznamů se počítá prakticky pouze u nezávislých autoservisů.</documentation>
+      <documentation xml:lang="cs">Business role Třetí strana je souhrnné označení pro různé subjekty, kteří mohou provozní a servisní záznamy automobilů využít v široké škále business modelů. Největší skupinou jsou nezávislé autoservisy, dále autopůjčovny a společnosti provozující carsharing. Předpokládá se, že třetí strany budou záznamy převážně konzumovat, s tvorbou nových záznamů se počítá prakticky pouze u nezávislých autoservisů.</documentation>
     </element>
     <element identifier="id-ed64db087e6c460f9e924020cef9a0d8" xsi:type="BusinessObject">
       <name xml:lang="cs">Servisní a provozní historie</name>
@@ -176,23 +176,23 @@
     </element>
     <element identifier="id-131d3249251e4de1a59d7e70297f00ce" xsi:type="BusinessObject">
       <name xml:lang="cs">Pojistná událost</name>
-      <documentation xml:lang="cs">Objekt Pojistná událost reprezentuje informaci o vzniklé pojistné události. Záznam vystavuje pojišťovna a může obsahovat například informace jako je podrobnější popis toho co se stalo, rozsah poškození, výše plnění, policejní protokol v přídě že byla událost vyšetřována anebo stav likvidace pojistné události.</documentation>
+      <documentation xml:lang="cs">Objekt Pojistná událost reprezentuje informaci o vzniklé pojistné události. Záznam vystavuje pojišťovna a může obsahovat například informace jako je podrobnější popis toho co se stalo, rozsah poškození, výše plnění, policejní protokol v případě, že byla událost vyšetřována anebo stav likvidace pojistné události.</documentation>
     </element>
     <element identifier="id-3cddcf58344f4b1fb0ed22303f26902c" xsi:type="BusinessObject">
       <name xml:lang="cs">Výrobní konfigurace auta</name>
-      <documentation xml:lang="cs">Objekt Výrobní konfigurace reprezentuje informaci o vlastnostech automobilu, tak jak jej automobilka vyrobila. Těmito informacemi mohou být identifikátory karoserie a motoru, seznam prvků výbavy automobilu, standardní i doplňkové. Výrobní konfigurací jsou myšleny i významné modifikace zásadním způsobem měnící vlastnosti automobilu, může se jednat o nesériové úpravy pohonného ústrojí, nebo rozšíření doplňkové výbavy například o parkovací senzory.</documentation>
+      <documentation xml:lang="cs">Objekt Výrobní konfigurace auta reprezentuje informaci o vlastnostech automobilu, tak jak jej automobilka vyrobila. Těmito informacemi mohou být identifikátory karoserie a motoru, seznam prvků výbavy automobilu, standardní i doplňkové. Výrobní konfigurací jsou myšleny i významné modifikace zásadním způsobem měnící vlastnosti automobilu. Může se jednat o nesériové úpravy pohonného ústrojí nebo rozšíření doplňkové výbavy například o parkovací senzory.</documentation>
     </element>
     <element identifier="id-b30c7264d545459da3c52a023182ed2f" xsi:type="BusinessObject">
       <name xml:lang="cs">Nezáruční servisní úkon</name>
-      <documentation xml:lang="cs">Objekt Nezáruční servisní úkon popisuje informaci o servisním úkonu nevyplývajícím ze záruky na automobil poskytované automobilkou. Tyto servisní úkony může pořizovat libovolná osoba, nejčastěji pak autoservisy, a to včetně nezávislých, a pro potřeby řidiče či vlastníka automobilu.</documentation>
+      <documentation xml:lang="cs">Objekt Nezáruční servisní úkon popisuje informaci o servisním úkonu nevyplývajícím ze záruky na automobil poskytované automobilkou. Tyto servisní úkony může pořizovat libovolná osoba, nejčastěji pak autoservisy včetně nezávislých, a pro potřeby řidiče či vlastníka automobilu.</documentation>
     </element>
     <element identifier="id-dfb9c97ad3064f21a4364a05ca85652d" xsi:type="BusinessObject">
       <name xml:lang="cs">Garanční servisní úkon</name>
-      <documentation xml:lang="cs">Objekt Garanční servisní úkon popisuje informaci o servisním úkonu vyplývajícím z uplatnění záruky na automobil poskytované automobilkou. Tato servisní úkony pořizuje výhradně autorizované autoservisy pro potřeby automobilky.</documentation>
+      <documentation xml:lang="cs">Objekt Garanční servisní úkon popisuje informaci o servisním úkonu vyplývajícím z uplatnění záruky na automobil poskytované automobilkou. Tyto servisní úkony pořizuje výhradně autorizované autoservisy pro potřeby automobilky.</documentation>
     </element>
     <element identifier="id-9d7af82c3ff946b38b1dd501646937c2" xsi:type="DataObject">
       <name xml:lang="cs">Databáze záznamů</name>
-      <documentation xml:lang="cs">Databáze záznamů uchovává všechny provozní a servisní záznamy. Přístup k databázi májí IoT i běžní klienti, kteří v databázi mohou zapisovat nové záznamy a vyhledávat již existující.</documentation>
+      <documentation xml:lang="cs">Databáze záznamů uchovává všechny provozní a servisní záznamy. Přístup k databázi mají IoT i běžní klienti, kteří v databázi mohou zapisovat nové záznamy a vyhledávat již existující.</documentation>
     </element>
     <element identifier="id-80e413e2082e4fa3b11ee4a2868d6fd5" xsi:type="DataObject">
       <name xml:lang="cs">Servisní záznam</name>
@@ -200,7 +200,7 @@
     </element>
     <element identifier="id-d2e05a3fd15b40e2be117d610b2f96cf" xsi:type="DataObject">
       <name xml:lang="cs">Provozní záznam</name>
-      <documentation xml:lang="cs">Provozní záznam představuje snímek provozních údajů automobilu k určitému okamžiku a v předem stanové struktuře, který byl vytvořen pomocí IoT klienta.</documentation>
+      <documentation xml:lang="cs">Provozní záznam představuje snímek provozních údajů automobilu k určitému okamžiku a v předem stanovené struktuře, který byl vytvořen pomocí IoT klienta.</documentation>
     </element>
     <element identifier="id-867bd1d1af2d44768fcf13bcb130d7ec" xsi:type="ApplicationService">
       <name xml:lang="cs">Zapisování provozních záznamů</name>
@@ -220,7 +220,7 @@
     </element>
     <element identifier="id-300c31bfa6ee42f1964626dac2ed5a83" xsi:type="ApplicationComponent">
       <name xml:lang="cs">Běžný klient</name>
-      <documentation xml:lang="cs">Běžný klient je komplexní aplikační komponenta, obsahující aplikační funkce Zapisování servisního záznamu a Vyhledávání záznamu. Běžný klient komunikuje s databází záznamů, kam jsou zapisovány servisní záznamy. Běžný klient umožňuje také v databází záznamů vyhledávat provozní a servisní záznamy.</documentation>
+      <documentation xml:lang="cs">Běžný klient je komplexní aplikační komponenta, obsahující aplikační funkce Zapisování servisního záznamu a Vyhledávání záznamu. Běžný klient komunikuje s databází záznamů, kam jsou zapisovány servisní záznamy. Běžný klient umožňuje také v databázi záznamů vyhledávat provozní a servisní záznamy.</documentation>
     </element>
     <element identifier="id-980a4c415ad6472b924c0cb1878a2bc6" xsi:type="ApplicationInterface">
       <name xml:lang="cs">API rozhraní</name>
@@ -232,11 +232,11 @@
     </element>
     <element identifier="id-7d836b1757cd4352a46fb7a259aa55f8" xsi:type="ApplicationFunction">
       <name xml:lang="cs">Zapsání servisního záznamu</name>
-      <documentation xml:lang="cs">Zapsání servisního záznamu je aplikační funkcí, která realizuje zápis jednotlivých servisních záznamů, tak jak jej popisuje aplikační služba Zapisování servisních záznamů. Spolu s Vyhledávání záznamu tvoří funkcionalitu aplikační komponenty Běžný klient.</documentation>
+      <documentation xml:lang="cs">Zapsání servisního záznamu je aplikační funkcí, která realizuje zápis jednotlivých servisních záznamů, tak jak jej popisuje aplikační služba Zapisování servisních záznamů. Spolu s Vyhledáváním záznamu tvoří funkcionalitu aplikační komponenty Běžný klient.</documentation>
     </element>
     <element identifier="id-105e03d9f8514f38b74f9c57fc855a9f" xsi:type="ApplicationFunction">
       <name xml:lang="cs">Vyhledání záznamu</name>
-      <documentation xml:lang="cs">Vyhledání záznamu je aplikační funkcí, která realizuje vyhledání jednotlivých provozních a servisních záznamů, tak jak jej popisuje aplikační služba Vyhledávání záznamů. Spolu se Zapsání servisního záznamu tvoří funkcionalitu aplikační komponenty Běžný klient.</documentation>
+      <documentation xml:lang="cs">Vyhledání záznamu je aplikační funkcí, která realizuje vyhledání jednotlivých provozních a servisních záznamů, tak jak jej popisuje aplikační služba Vyhledávání záznamů. Spolu se Zapsáním servisního záznamu tvoří funkcionalitu aplikační komponenty Běžný klient.</documentation>
     </element>
     <element identifier="id-0be2c6ecb44d4b84999520dae0ddb051" xsi:type="Artifact">
       <name xml:lang="cs">Distribuovaný orientovaný acyklický graf</name>
@@ -264,7 +264,7 @@
     </element>
     <element identifier="id-8019273218294a51bef76309ca8b9763" xsi:type="Device">
       <name xml:lang="cs">Počítač</name>
-      <documentation xml:lang="cs">Počítačem se rozumí výpočetní prostředí běžného osobního počítače či dedikovaného serveru na kterém je spuštěný uzel sítě. Počítač uzlu sítě poskytuje též své výpočetní prostředky, lokální úložiště a síťovou konektivitu.</documentation>
+      <documentation xml:lang="cs">Počítačem se rozumí výpočetní prostředí běžného osobního počítače či dedikovaného serveru, na kterém je spuštěný uzel sítě. Počítač uzlu sítě poskytuje též své výpočetní prostředky, lokální úložiště a síťovou konektivitu.</documentation>
     </element>
     <element identifier="id-e2cda63dd4694aff8fdc5c6c42ed4318" xsi:type="TechnologyProcess">
       <name xml:lang="cs">Zapsání nového listu grafu</name>
@@ -300,7 +300,7 @@
     </element>
     <element identifier="id-6c20850e8a9440138ef24f3cad8f2f33" xsi:type="TechnologyFunction">
       <name xml:lang="cs">Vytvoření nového listu grafu</name>
-      <documentation xml:lang="cs">Vytvoření nového listu grafu představuje činnost, během které je vytvořena struktura nové listu grafu, do které je současně vložen obsah daného záznamu, kterým může být výpis z autodiagnostiky nebo CID dokumentu.</documentation>
+      <documentation xml:lang="cs">Vytvoření nového listu grafu představuje činnost, během které je vytvořena struktura nové listu grafu. Do ní je současně vložen obsah daného záznamu, kterým může být výpis z autodiagnostiky nebo CID dokumentu.</documentation>
     </element>
     <element identifier="id-514e142afe6c46d38fca3c378b719f10" xsi:type="TechnologyFunction">
       <name xml:lang="cs">Podepsání nového listu grafu</name>
@@ -312,7 +312,7 @@
     </element>
     <element identifier="id-badd1e3a80dd411da04bc9680e34bf18" xsi:type="TechnologyFunction">
       <name xml:lang="cs">Ověření rodičovských uzlů</name>
-      <documentation xml:lang="cs">U všech kandidátů na rodičovské uzly jsou formálně ověřeny digitální podpisy. U kandidátských uzlů grafu, které obsahují provozní záznamy je provedeno navíc věcné ověření vůči předem známým business pravidlům, například zda udávaný stav tachometru nepoklesl vůči poslednímu potvrzenému provoznímu záznamu. Tímto způsobem je jsou rodičovské uzly nezávisle ověřeny.</documentation>
+      <documentation xml:lang="cs">U všech kandidátů na rodičovské uzly jsou formálně ověřeny digitální podpisy. U kandidátských uzlů grafu, které obsahují provozní záznamy je provedeno navíc věcné ověření vůči předem známým business pravidlům. Například zda udávaný stav tachometru nepoklesl vůči poslednímu potvrzenému provoznímu záznamu. Tímto způsobem jsou rodičovské uzly nezávisle ověřeny.</documentation>
     </element>
     <element identifier="id-92e6dbe53f70422bb388a37b131969b8" xsi:type="TechnologyFunction">
       <name xml:lang="cs">Propagace nového listu do sítě</name>
@@ -320,15 +320,15 @@
     </element>
     <element identifier="id-fbc760ae5c4349e1b262c07df8b9f4a6" xsi:type="Artifact">
       <name xml:lang="cs">Nepotvrzený list grafu</name>
-      <documentation xml:lang="cs">Nepotvrzený list grafu je technický datový objekt, který je agregovaný v DAG. Jednotlivé nepotvrzené listy jsou uzly na samotném okraji DAG, na které odkazuje jeden nebo žádný potomek. Každý nepotvrzený list grafu obsahuje odkaz na své dva předchůdce, u kterých ověřil jejich pravost. Nepotvrzený list se může neodvolatelně přeměnit na potvrzený uzel grafu.</documentation>
+      <documentation xml:lang="cs">Nepotvrzený list grafu je technický datový objekt, který je agregovaný v DAG. Jednotlivé nepotvrzené listy jsou uzly na samotném okraji DAG, na které odkazuje jen jeden nebo žádný potomek. Každý nepotvrzený list grafu obsahuje odkaz na své dva předchůdce, u kterých ověřil jejich pravost. Nepotvrzený list se může neodvolatelně přeměnit na potvrzený uzel grafu.</documentation>
     </element>
     <element identifier="id-c047f4dc0210489bbacd6b17cb917792" xsi:type="TechnologyFunction">
       <name xml:lang="cs">Uložení dokumentu do sítě IPFS</name>
-      <documentation xml:lang="cs">Uživatel na vstupu vloží dokument popisující servisní záznam. Ten je následně uložen do IPFS úložiště, které vrátí CID uloženého dokumentu, který se následně předává následujícímu procesnímu kroku.</documentation>
+      <documentation xml:lang="cs">Uživatel na vstupu vloží dokument popisující servisní záznam. Ten je následně uložen do IPFS úložiště, které vrátí CID uloženého dokumentu, a ten se následně předává následujícímu procesnímu kroku.</documentation>
     </element>
     <element identifier="id-ff536ed56baa4c3fbe395fecacd51a48" xsi:type="TechnologyProcess">
       <name xml:lang="cs">Vyhledání existujícího uzlu grafu</name>
-      <documentation xml:lang="cs">Technický proces Vyhledání existujícího uzlu grafu, popisuje postup při vyhledání uzlu grafu včetně rozhodovací logiky o vyhledání dokumentu v IPFS úložišti. Tento proces je realizovaný pomocí uzlu sítě.</documentation>
+      <documentation xml:lang="cs">Technický proces Vyhledání existujícího uzlu grafu popisuje postup při vyhledání uzlu grafu včetně rozhodovací logiky o vyhledání dokumentu v IPFS úložišti. Tento proces je realizovaný pomocí uzlu sítě.</documentation>
     </element>
     <element identifier="id-7b029ea3a9c843778602042accd995b3" xsi:type="TechnologyFunction">
       <name xml:lang="cs">Vyhledání uzlu v grafu</name>
@@ -4645,7 +4645,7 @@
       </view>
       <view identifier="id-b501a5f9cb3543a1af9c88111c97db52" xsi:type="Diagram">
         <name xml:lang="cs">14. Detail Servsního záznamu</name>
-        <documentation xml:lang="cs">Detail Servisního záznamu zobrazuje výsek aplikační a technologické vrstvy a popisuje službu zapisování nových servisních záznamů a vyhledávání již existujících provozních i servisních záznamů, a to včetně popisu konkrétního technického procesu a nezbytné infrastruktury, potřebné pro řádné zapsání nových servisních záznamů a vyhledávání již existujících provozních a servisních záznamů.</documentation>
+        <documentation xml:lang="cs">Detail Servisního záznamu zobrazuje výsek aplikační a technologické vrstvy a popisuje službu zapisování nových servisních záznamů a vyhledávání již existujících provozních i servisních záznamů, a to včetně popisů konkrétních technických procesů a nezbytné infrastruktury, potřebné pro řádné zapsání nových servisních záznamů a vyhledávání již existujících provozních a servisních záznamů.</documentation>
         <node identifier="id-040803d153ae43bc9f251ad54a7d103d" x="24" y="396" w="1536" h="672" xsi:type="Container">
           <label xml:lang="cs">Technologická vrstva</label>
           <style>
