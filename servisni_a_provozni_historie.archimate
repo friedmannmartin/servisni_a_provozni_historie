@@ -12,10 +12,10 @@
       <documentation>Business role Autoservis zastupující všechny autorizované autoservisy. Nezávislé autoservisy jsou reprezentované business rolí Třetí strana. Přístup k historickým záznamům o autě umožňuje servisním technikům poskytovat kvalifikovanější doporučení svým zákazníkům ohledně servisování jejich aut. Autoservisy jsou největším zdrojem záznamů, a proto jim architektura umožňuje zapisovat pravidelné prohlídky i všechny servisní úkony.</documentation>
     </element>
     <element xsi:type="archimate:BusinessRole" name="Řidič" id="id-4b05a21bc19d48a583a094051dc67010">
-      <documentation>Business role řidič zastupuje řidiče automobilů, vždy se jedná o fyzickou osobu. Řidič se primárně potřebuje informovat před započetím jízdy o provozuschopnosti automobilu a případně evidovat incidenty, například defekt pneumatiky, vzniklé během samotné jízdy.</documentation>
+      <documentation>Business role řidič zastupuje řidiče automobilů, vždy se jedná o fyzickou osobu. Řidič se primárně potřebuje informovat před započetím jízdy o provozuschopnosti automobilu a případně evidovat nové incidenty, například defekt pneumatiky, vzniklé během samotné jízdy.</documentation>
     </element>
     <element xsi:type="archimate:BusinessRole" name="Vlastník" id="id-4f7971ae46f24bea80dd8efbad78eee6">
-      <documentation>Business role Vlastník zastupuje samotné vlastníky automobilů, kterými mohou být fyzické ale i právnické osoby. Vlastník má přístup ke zcela všem záznamům o vozidle, tak aby mohl činit informované rozhodnutí o údržbě v průběhu životního cyklu automobilu. Dále má možnost evidovat nezáruční servisní úkony, které mohl provést svépomocí, například výměnu motorového oleje apod.</documentation>
+      <documentation>Business role Vlastník zastupuje samotné vlastníky automobilů, kterými mohou být fyzické, ale i právnické osoby. Vlastník má přístup ke zcela všem záznamům o vozidle, tak aby mohl činit informované rozhodnutí o údržbě v průběhu životního cyklu automobilu. Dále má možnost evidovat nezáruční servisní úkony, které mohl provést svépomocí, například výměnu motorového oleje apod.</documentation>
     </element>
     <element xsi:type="archimate:BusinessRole" name="Pojišťovna" id="id-ac1123f71fca4016a474d3a1f1480b93">
       <documentation>Business role Pojišťovna zastupuje primárně poskytovatele různých druhů (povinné, havarijní, krádež apod.) pojištění automobilů. Tyto pojišťovny potřebují přístup k vybraným záznamům pro kvalifikované výpočty pojistného, likvidaci pojistných událostí včetně výpočtu pojistného plnění. Současně jsou pojišťovny primárním zdrojem pro historické záznamy pojistných událostí.</documentation>
@@ -24,7 +24,7 @@
       <documentation>Business role Státní správa reprezentuje zejména Stanice technické kontroly, Dopravní inspektoráty, Policii České republiky a jiné státní instituce. Státní správa má zájem evidovat protokoly o krádežích aut a záznamy o kontrolách vozidel na STK. Přístup k provozním údajům o automobilech zpřístupňuje přesné a aktuální informace o stavu vozového parku provozovanému primárně na území ČR.</documentation>
     </element>
     <element xsi:type="archimate:BusinessRole" name="Třetí strana" id="id-fa63003be03f4695b8322de564f2be9c">
-      <documentation>Business role Třetí strana je souhrnné označení různé subjekty, kteří mohou provozní a servisní záznamy automobilů využít v široké škále business modelů. Největší skupinou jsou nezávislé autoservisy, dále autopůjčovny a společnosti provozující carsharing. Předpokládá se, že třetí strany budou záznamy převážně konzumovat, s tvorbou nových záznamů se počítá prakticky pouze u nezávislých autoservisů.</documentation>
+      <documentation>Business role Třetí strana je souhrnné označení pro různé subjekty, kteří mohou provozní a servisní záznamy automobilů využít v široké škále business modelů. Největší skupinou jsou nezávislé autoservisy, dále autopůjčovny a společnosti provozující carsharing. Předpokládá se, že třetí strany budou záznamy převážně konzumovat, s tvorbou nových záznamů se počítá prakticky pouze u nezávislých autoservisů.</documentation>
     </element>
     <element xsi:type="archimate:BusinessObject" name="Servisní a provozní historie" id="id-ed64db087e6c460f9e924020cef9a0d8">
       <documentation>Servisní a provozní historie je ucelená sada všech významných skutečností a událostí, které vznikly v průběhu celého životního cyklu automobilu.</documentation>
@@ -120,27 +120,27 @@
       <documentation>Objekt Protokol o krádeži auta reprezentuje informaci o neoprávněném odcizení automobilu, protokol vystavuje Policie České republiky a může obsahovat například informace jako je datum a místo odcizení automobilu.</documentation>
     </element>
     <element xsi:type="archimate:BusinessObject" name="Pojistná událost" id="id-131d3249251e4de1a59d7e70297f00ce">
-      <documentation>Objekt Pojistná událost reprezentuje informaci o vzniklé pojistné události. Záznam vystavuje pojišťovna a může obsahovat například informace jako je podrobnější popis toho co se stalo, rozsah poškození, výše plnění, policejní protokol v přídě že byla událost vyšetřována anebo stav likvidace pojistné události.</documentation>
+      <documentation>Objekt Pojistná událost reprezentuje informaci o vzniklé pojistné události. Záznam vystavuje pojišťovna a může obsahovat například informace jako je podrobnější popis toho co se stalo, rozsah poškození, výše plnění, policejní protokol v případě, že byla událost vyšetřována anebo stav likvidace pojistné události.</documentation>
     </element>
     <element xsi:type="archimate:BusinessObject" name="Výrobní konfigurace auta" id="id-3cddcf58344f4b1fb0ed22303f26902c">
-      <documentation>Objekt Výrobní konfigurace reprezentuje informaci o vlastnostech automobilu, tak jak jej automobilka vyrobila. Těmito informacemi mohou být identifikátory karoserie a motoru, seznam prvků výbavy automobilu, standardní i doplňkové. Výrobní konfigurací jsou myšleny i významné modifikace zásadním způsobem měnící vlastnosti automobilu, může se jednat o nesériové úpravy pohonného ústrojí, nebo rozšíření doplňkové výbavy například o parkovací senzory.</documentation>
+      <documentation>Objekt Výrobní konfigurace auta reprezentuje informaci o vlastnostech automobilu, tak jak jej automobilka vyrobila. Těmito informacemi mohou být identifikátory karoserie a motoru, seznam prvků výbavy automobilu, standardní i doplňkové. Výrobní konfigurací jsou myšleny i významné modifikace zásadním způsobem měnící vlastnosti automobilu. Může se jednat o nesériové úpravy pohonného ústrojí nebo rozšíření doplňkové výbavy například o parkovací senzory.</documentation>
     </element>
     <element xsi:type="archimate:BusinessObject" name="Nezáruční servisní úkon" id="id-b30c7264d545459da3c52a023182ed2f">
-      <documentation>Objekt Nezáruční servisní úkon popisuje informaci o servisním úkonu nevyplývajícím ze záruky na automobil poskytované automobilkou. Tyto servisní úkony může pořizovat libovolná osoba, nejčastěji pak autoservisy, a to včetně nezávislých, a pro potřeby řidiče či vlastníka automobilu.</documentation>
+      <documentation>Objekt Nezáruční servisní úkon popisuje informaci o servisním úkonu nevyplývajícím ze záruky na automobil poskytované automobilkou. Tyto servisní úkony může pořizovat libovolná osoba, nejčastěji pak autoservisy včetně nezávislých, a pro potřeby řidiče či vlastníka automobilu.</documentation>
     </element>
     <element xsi:type="archimate:BusinessObject" name="Garanční servisní úkon" id="id-dfb9c97ad3064f21a4364a05ca85652d">
-      <documentation>Objekt Garanční servisní úkon popisuje informaci o servisním úkonu vyplývajícím z uplatnění záruky na automobil poskytované automobilkou. Tato servisní úkony pořizuje výhradně autorizované autoservisy pro potřeby automobilky.</documentation>
+      <documentation>Objekt Garanční servisní úkon popisuje informaci o servisním úkonu vyplývajícím z uplatnění záruky na automobil poskytované automobilkou. Tyto servisní úkony pořizuje výhradně autorizované autoservisy pro potřeby automobilky.</documentation>
     </element>
   </folder>
   <folder name="Application" id="id-a3e7ab63732e4c1eb328849f0c6604f5" type="application">
     <element xsi:type="archimate:DataObject" name="Databáze záznamů" id="id-9d7af82c3ff946b38b1dd501646937c2">
-      <documentation>Databáze záznamů uchovává všechny provozní a servisní záznamy. Přístup k databázi májí IoT i běžní klienti, kteří v databázi mohou zapisovat nové záznamy a vyhledávat již existující.</documentation>
+      <documentation>Databáze záznamů uchovává všechny provozní a servisní záznamy. Přístup k databázi mají IoT i běžní klienti, kteří v databázi mohou zapisovat nové záznamy a vyhledávat již existující.</documentation>
     </element>
     <element xsi:type="archimate:DataObject" name="Servisní záznam" id="id-80e413e2082e4fa3b11ee4a2868d6fd5">
       <documentation>Servisní záznam představuje datový objekt v nestandardizované podobě, který popisuje nějakou servisní skutečnost, a který byl vytvořen pomocí Běžného klienta.</documentation>
     </element>
     <element xsi:type="archimate:DataObject" name="Provozní záznam" id="id-d2e05a3fd15b40e2be117d610b2f96cf">
-      <documentation>Provozní záznam představuje snímek provozních údajů automobilu k určitému okamžiku a v předem stanové struktuře, který byl vytvořen pomocí IoT klienta.</documentation>
+      <documentation>Provozní záznam představuje snímek provozních údajů automobilu k určitému okamžiku a v předem stanovené struktuře, který byl vytvořen pomocí IoT klienta.</documentation>
     </element>
     <element xsi:type="archimate:ApplicationService" name="Zapisování provozních záznamů " id="id-867bd1d1af2d44768fcf13bcb130d7ec">
       <documentation>Zapisování provozních záznamů je aplikační služba, která slouží business funkci Zapisování provozních údajů a umožňuje tak zápis provozních údajů ve standardizovaném formátu v pravidelných intervalech do jednotlivých provozních záznamů.</documentation>
@@ -155,7 +155,7 @@
       <documentation>IoT klient je jednoúčelová aplikační komponenta, obsahující jedinou aplikační funkci Zapisování provozního záznamu. IoT klient komunikuje s databází záznamů, kam jsou zapisovány provozní záznamy.</documentation>
     </element>
     <element xsi:type="archimate:ApplicationComponent" name="Běžný klient" id="id-300c31bfa6ee42f1964626dac2ed5a83">
-      <documentation>Běžný klient je komplexní aplikační komponenta, obsahující aplikační funkce Zapisování servisního záznamu a Vyhledávání záznamu. Běžný klient komunikuje s databází záznamů, kam jsou zapisovány servisní záznamy. Běžný klient umožňuje také v databází záznamů vyhledávat provozní a servisní záznamy.</documentation>
+      <documentation>Běžný klient je komplexní aplikační komponenta, obsahující aplikační funkce Zapisování servisního záznamu a Vyhledávání záznamu. Běžný klient komunikuje s databází záznamů, kam jsou zapisovány servisní záznamy. Běžný klient umožňuje také v databázi záznamů vyhledávat provozní a servisní záznamy.</documentation>
     </element>
     <element xsi:type="archimate:ApplicationInterface" name="API rozhraní" id="id-980a4c415ad6472b924c0cb1878a2bc6">
       <documentation>API rozhraní abstrahuje aplikační služby vystavené vůči business vrstvě realizované pomocí aplikačních funkcí od konkrétního technického řešení.</documentation>
@@ -164,10 +164,10 @@
       <documentation>Zapsání provozního záznamu je aplikační funkcí, která realizuje zápis jednotlivých provozní záznamů, tak jak jej popisuje aplikační služba Zapisování provozních záznamů. Jedná se o jedinou funkci aplikační komponenty IoT klient.</documentation>
     </element>
     <element xsi:type="archimate:ApplicationFunction" name="Zapsání servisního záznamu" id="id-7d836b1757cd4352a46fb7a259aa55f8">
-      <documentation>Zapsání servisního záznamu je aplikační funkcí, která realizuje zápis jednotlivých servisních záznamů, tak jak jej popisuje aplikační služba Zapisování servisních záznamů. Spolu s Vyhledávání záznamu tvoří funkcionalitu aplikační komponenty Běžný klient.</documentation>
+      <documentation>Zapsání servisního záznamu je aplikační funkcí, která realizuje zápis jednotlivých servisních záznamů, tak jak jej popisuje aplikační služba Zapisování servisních záznamů. Spolu s Vyhledáváním záznamu tvoří funkcionalitu aplikační komponenty Běžný klient.</documentation>
     </element>
     <element xsi:type="archimate:ApplicationFunction" name="Vyhledání záznamu" id="id-105e03d9f8514f38b74f9c57fc855a9f">
-      <documentation>Vyhledání záznamu je aplikační funkcí, která realizuje vyhledání jednotlivých provozních a servisních záznamů, tak jak jej popisuje aplikační služba Vyhledávání záznamů. Spolu se Zapsání servisního záznamu tvoří funkcionalitu aplikační komponenty Běžný klient.</documentation>
+      <documentation>Vyhledání záznamu je aplikační funkcí, která realizuje vyhledání jednotlivých provozních a servisních záznamů, tak jak jej popisuje aplikační služba Vyhledávání záznamů. Spolu se Zapsáním servisního záznamu tvoří funkcionalitu aplikační komponenty Běžný klient.</documentation>
     </element>
   </folder>
   <folder name="Technology &amp; Physical" id="id-c9b1a91c2b78425bac908f135814a502" type="technology">
@@ -190,7 +190,7 @@
       <documentation>Automobilem se rozumí výpočetní prostředí automobilu, ve kterém je spuštěný uzel sítě. Automobil uzlu sítě poskytuje též své výpočetní prostředky, lokální úložiště a síťovou konektivitu.</documentation>
     </element>
     <element xsi:type="archimate:Device" name="Počítač" id="id-8019273218294a51bef76309ca8b9763">
-      <documentation>Počítačem se rozumí výpočetní prostředí běžného osobního počítače či dedikovaného serveru na kterém je spuštěný uzel sítě. Počítač uzlu sítě poskytuje též své výpočetní prostředky, lokální úložiště a síťovou konektivitu.</documentation>
+      <documentation>Počítačem se rozumí výpočetní prostředí běžného osobního počítače či dedikovaného serveru, na kterém je spuštěný uzel sítě. Počítač uzlu sítě poskytuje též své výpočetní prostředky, lokální úložiště a síťovou konektivitu.</documentation>
     </element>
     <element xsi:type="archimate:TechnologyProcess" name="Zapsání nového listu grafu" id="id-e2cda63dd4694aff8fdc5c6c42ed4318">
       <documentation>Technický proces Zápis nového listu grafu popisuje postup při vzniku nového nepotvrzeného listu grafu pro potřeby uchovávání provozních záznamů. Tento proces je realizovaný pomocí uzlu sítě v pravidelných intervalech.</documentation>
@@ -217,7 +217,7 @@
       <documentation>Digitální podpis autora a časové razítko jsou datové objekty obsažené v každém uzlu grafu. Digitální podpis autora je unikátní pro každého uživatele, který zapisuje nový záznam. Oba využívají asymetrickou kryptografii pro zajištění důvěryhodnosti každého uzlu grafu.</documentation>
     </element>
     <element xsi:type="archimate:TechnologyFunction" name="Vytvoření nového listu grafu" id="id-6c20850e8a9440138ef24f3cad8f2f33">
-      <documentation>Vytvoření nového listu grafu představuje činnost, během které je vytvořena struktura nové listu grafu, do které je současně vložen obsah daného záznamu, kterým může být výpis z autodiagnostiky nebo CID dokumentu.</documentation>
+      <documentation>Vytvoření nového listu grafu představuje činnost, během které je vytvořena struktura nové listu grafu. Do ní je současně vložen obsah daného záznamu, kterým může být výpis z autodiagnostiky nebo CID dokumentu.</documentation>
     </element>
     <element xsi:type="archimate:TechnologyFunction" name="Podepsání nového listu grafu" id="id-514e142afe6c46d38fca3c378b719f10">
       <documentation>Finalizovaný obsah nového listu grafu včetně odkazů na dva ověřené rodičovské uzly je digitálně podepsaný s pomocí asymetrické kryptografie.</documentation>
@@ -226,19 +226,19 @@
       <documentation>Z DAG jsou vybrány dva kandidátské rodičovské uzly. Kandidátem mohou být jiné nepotvrzené listy grafu.</documentation>
     </element>
     <element xsi:type="archimate:TechnologyFunction" name="Ověření rodičovských uzlů" id="id-badd1e3a80dd411da04bc9680e34bf18">
-      <documentation>U všech kandidátů na rodičovské uzly jsou formálně ověřeny digitální podpisy. U kandidátských uzlů grafu, které obsahují provozní záznamy je provedeno navíc věcné ověření vůči předem známým business pravidlům, například zda udávaný stav tachometru nepoklesl vůči poslednímu potvrzenému provoznímu záznamu. Tímto způsobem je jsou rodičovské uzly nezávisle ověřeny.</documentation>
+      <documentation>U všech kandidátů na rodičovské uzly jsou formálně ověřeny digitální podpisy. U kandidátských uzlů grafu, které obsahují provozní záznamy je provedeno navíc věcné ověření vůči předem známým business pravidlům. Například zda udávaný stav tachometru nepoklesl vůči poslednímu potvrzenému provoznímu záznamu. Tímto způsobem jsou rodičovské uzly nezávisle ověřeny.</documentation>
     </element>
     <element xsi:type="archimate:TechnologyFunction" name="Propagace nového listu do sítě" id="id-92e6dbe53f70422bb388a37b131969b8">
       <documentation>Nově vytvořený nepotvrzený list grafu ve své finalizované podobě je hromadně rozeslaný ostatním uzlům sítě, kteří si jej uloží do své kopie DAG.</documentation>
     </element>
     <element xsi:type="archimate:Artifact" name="Nepotvrzený list grafu" id="id-fbc760ae5c4349e1b262c07df8b9f4a6">
-      <documentation>Nepotvrzený list grafu je technický datový objekt, který je agregovaný v DAG. Jednotlivé nepotvrzené listy jsou uzly na samotném okraji DAG, na které odkazuje jeden nebo žádný potomek. Každý nepotvrzený list grafu obsahuje odkaz na své dva předchůdce, u kterých ověřil jejich pravost. Nepotvrzený list se může neodvolatelně přeměnit na potvrzený uzel grafu.</documentation>
+      <documentation>Nepotvrzený list grafu je technický datový objekt, který je agregovaný v DAG. Jednotlivé nepotvrzené listy jsou uzly na samotném okraji DAG, na které odkazuje jen jeden nebo žádný potomek. Každý nepotvrzený list grafu obsahuje odkaz na své dva předchůdce, u kterých ověřil jejich pravost. Nepotvrzený list se může neodvolatelně přeměnit na potvrzený uzel grafu.</documentation>
     </element>
     <element xsi:type="archimate:TechnologyFunction" name="Uložení dokumentu do sítě IPFS" id="id-c047f4dc0210489bbacd6b17cb917792">
-      <documentation>Uživatel na vstupu vloží dokument popisující servisní záznam. Ten je následně uložen do IPFS úložiště, které vrátí CID uloženého dokumentu, který se následně předává následujícímu procesnímu kroku. </documentation>
+      <documentation>Uživatel na vstupu vloží dokument popisující servisní záznam. Ten je následně uložen do IPFS úložiště, které vrátí CID uloženého dokumentu, a ten se následně předává následujícímu procesnímu kroku.</documentation>
     </element>
     <element xsi:type="archimate:TechnologyProcess" name="Vyhledání existujícího uzlu grafu" id="id-ff536ed56baa4c3fbe395fecacd51a48">
-      <documentation>Technický proces Vyhledání existujícího uzlu grafu, popisuje postup při vyhledání uzlu grafu včetně rozhodovací logiky o vyhledání dokumentu v IPFS úložišti. Tento proces je realizovaný pomocí uzlu sítě.</documentation>
+      <documentation>Technický proces Vyhledání existujícího uzlu grafu popisuje postup při vyhledání uzlu grafu včetně rozhodovací logiky o vyhledání dokumentu v IPFS úložišti. Tento proces je realizovaný pomocí uzlu sítě.</documentation>
     </element>
     <element xsi:type="archimate:TechnologyFunction" name="Vyhledání uzlu v grafu" id="id-7b029ea3a9c843778602042accd995b3">
       <documentation>Uzel je vyhledán v DAG dle vstupních parametrů zadaných uživatelem.</documentation>
@@ -1824,7 +1824,7 @@
       <child xsi:type="archimate:DiagramObject" id="id-1892ea4a5284459a98b1071afa0456c2" targetConnections="id-8ac7872c194249ca8a849c25a83c257d" textPosition="1" archimateElement="id-061258c384174031b914897d3f669cd1">
         <bounds x="156" y="60" width="145" height="61"/>
       </child>
-      <documentation>Detail Servisního záznamu zobrazuje výsek aplikační a technologické vrstvy a popisuje službu zapisování nových servisních záznamů a vyhledávání již existujících provozních i servisních záznamů, a to včetně popisu konkrétního technického procesu a nezbytné infrastruktury, potřebné pro řádné zapsání nových servisních záznamů a vyhledávání již existujících provozních a servisních záznamů. </documentation>
+      <documentation>Detail Servisního záznamu zobrazuje výsek aplikační a technologické vrstvy a popisuje službu zapisování nových servisních záznamů a vyhledávání již existujících provozních i servisních záznamů, a to včetně popisů konkrétních technických procesů a nezbytné infrastruktury, potřebné pro řádné zapsání nových servisních záznamů a vyhledávání již existujících provozních a servisních záznamů.</documentation>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="05. Detail business role Automobil" id="id-9b4d9a1c18ce4d42a534ca4b2236c18e">
       <child xsi:type="archimate:DiagramObject" id="id-726b8adbc2ee4d4b9e00861961c61686" targetConnections="id-ed810307b4ba40b2a56291c0f78f14b2" textPosition="1" imagePosition="4" archimateElement="id-71350432c105481f83218aa71d99c324">
