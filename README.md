@@ -34,4 +34,4 @@ ___
 
 <img src="https://feedbotvsefisbotweb6272.blob.core.windows.net/upload/thumbnails/logo-horizontal-cs-square-05-removebg-preview.png" height="100" alt="Logo Fakulty informatiky a statistiky VŠE">
 
-Dokumentace architektury je zveřejněna pod [MIT licencí](LICENSE).
+Dokumentace vznikla jako součást diplomové práce Návrh architektury distribuované databáze pro uchování servisní historie automobilu (Martin Friedmann, Vysoká škola ekonomická v Praze, 2022). Dokumentace architektury je zveřejněna pod [MIT licencí](LICENSE).
